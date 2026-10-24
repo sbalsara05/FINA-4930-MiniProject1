@@ -1,0 +1,43 @@
+{
+  "chosen_model": "Lasso",
+  "best_cv_model": "Lasso",
+  "one_se_threshold": 0.6499010196064511,
+  "best_params": {
+    "Ridge": {
+      "alpha": 62.10169418915616
+    },
+    "Lasso": {
+      "alpha": 0.05736152510448681
+    },
+    "Elastic Net": {
+      "alpha": 0.08531678524172814,
+      "l1_ratio": 0.7
+    },
+    "Huber": {
+      "alpha": 10,
+      "epsilon": 2.5
+    },
+    "Random Forest": {
+      "max_depth": null,
+      "max_features": 0.33,
+      "min_samples_leaf": 5
+    },
+    "Gradient Boosting": {
+      "learning_rate": 0.01,
+      "max_depth": 1,
+      "n_estimators": 300,
+      "subsample": 1.0
+    }
+  },
+  "test_r2_ci": [
+    -0.17104373562413086,
+    0.2722421662300546
+  ],
+  "n": 224,
+  "n_rows_raw": 439,
+  "n_train": 179,
+  "n_test": 45,
+  "ols_r2": 0.19320805402464603,
+  "ols_adj_r2": 0.1553304978755684,
+  "baseline_hit_rate": 0.6222222222222222
+}
